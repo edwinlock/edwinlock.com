@@ -1,6 +1,6 @@
 <h2 class="mt-4">Publications</h2>
 
-{% assign papers = site.publications | sort:'number' %}
+{% assign papers = site.publications | sort:'number','last' %}
 
 {% for paper in papers %}
 <div class='mt-4'>
@@ -10,8 +10,9 @@
 <small class="text-secondary">
 {{ paper.authors}}.
 <br>
-{{ paper.journal }},
-{% if paper.misc %} {{paper.misc }} {% endif %}
+{{ paper.journal }}
+{% if paper.issue %} {{paper.issue }}, {% endif %}
+{% if paper.page %} {{paper.page }} {% endif %}
 ({{ paper.year }})
 </small>
 </div>

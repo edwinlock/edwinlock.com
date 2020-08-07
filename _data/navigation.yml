@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Career
+  link: /career.html
 - name: Research
   link: /research.html
 - name: Teaching

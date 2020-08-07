@@ -3,23 +3,8 @@ layout: index
 image: myhead.jpg
 ---
 ## About me
-I'm a third year DPhil (PhD) student at the University of Oxford, supervised by
-[Paul Goldberg](http://www.cs.ox.ac.uk/people/paul.goldberg/index1.html).
-My current research focuses on pricing and auctions, specifically determining the viability
-of mechanisms in the dual settings of social welfare and profit maximisation. This
-stimulating and active area of research has an abundance of open problems and deep
-implications for the world outside of academia.
-
-In response to the COVID-19 pandemic, I co-founded [Test and Contain](http://testandcontain.com),
-a project to design and implement a resource-optimal testing and containment mechanism
-that helps protect the health and livelihoods of those hardest hit in low to middle income
-countries. This work is supported by an ACM GCEC'20 grant.
+I am working towards a DPhil (PhD) under the supervision of [Felix Parra](https://www2.physics.ox.ac.uk/contacts/people/parradiaz) (University of Oxford) and [Jon Hillesheim](https://www.researchgate.net/profile/Jon_Hillesheim) (Culham Centre for Fusion Energy). My work is focused on measuring and understanding turbulence in fusion plasmas. I am developing a model for the interaction between microwaves and turbulent density fluctuations to analyse and interpret data from the Doppler Backscattering (DBS) diagnostic. DBS is especially important for future tokamaks as it is one of the few available diagnostics which are robust enough to withstand high neutron fluxes. For a layman-friendly introduction to nuclear fusion, consider listening to our [Oxford podcast](https://podcasts.ox.ac.uk/nuclear-fusion).
 
 [↳ My Research](research.html){: .btn .btn-outline-secondary .btn-center}
 
-Prior to my doctoral studies, I completed a BSc in Mathematics (2012-2016) at Germany's
-state distance learning university FernUniversität Hagen and an MSc in Mathematics and
-Computer Science (2017-2018) at the University of Oxford. I also hold a BA degree in Music
-(2008-2012) from the University of Oxford.
-
-[↳ Download CV](assets/files/cv.pdf){: .btn .btn-outline-secondary .btn-center}
+# [↳ Download CV](assets/files/cv.pdf){: .btn .btn-outline-secondary .btn-center}

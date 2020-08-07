@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Research
-image: network.png
-caption: "A network with lots of nodes."
+image: map.svg
+caption: "A map of the British Isles with Oxford highlighted."
 ---
 
 ## Research

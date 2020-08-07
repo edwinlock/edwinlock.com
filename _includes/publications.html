@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<< HEAD
 <div class='mt-4'>
 <h2>Publications</h2>
 
@@ -6,12 +6,7 @@
 
 {% for paper in papers %}
 =======
-{% assign papers = site.publications | sort:'number','last' %}
 
-{% for paper in papers %}
-<div class='mt-4'>
-<h2>Publications</h2>
->>>>>>> 141a2f45ee2ed6ac6747197ffdbfb809188cd493
 [{{ paper.number }}] {{ paper.title }}
 <a class="badge badge-pill badge-secondary" href="{{ paper.link }}">link</a>
 <br>

@@ -7,4 +7,4 @@ I am working towards a DPhil (PhD) under the supervision of [Felix Parra](https:
 
 [↳ My Research](research.html){: .btn .btn-outline-secondary .btn-center}
 
-# [↳ Download CV](assets/files/cv.pdf){: .btn .btn-outline-secondary .btn-center}
+## [↳ Download CV](assets/files/cv.pdf){: .btn .btn-outline-secondary .btn-center}

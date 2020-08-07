@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Research
-image: network.png
-caption: "A network-based SIR simulation of a COVID-19 outbreak."
+#image: network.png
+#caption: "A network-based SIR simulation of a COVID-19 outbreak."
 ---
 
 ## Research

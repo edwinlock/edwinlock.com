@@ -7,10 +7,7 @@ caption: "A map of the British Isles with Oxford highlighted."
 
 ## Get in touch
 
-If you have any questions about my work, please get in touch and I'll get back to you
-as soon as I can. I am always open to collaborations.
-
-Email me at [{{site.email}}](mailto:{{site.email}}) or fill in the form below.
+If you have any questions, or if you would like to have a chat, please contact me using the form below.
 
 <form action="{{ site.formurl }}" method="POST" class="mt-4 text-left">
 <div class="form-row">

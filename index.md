@@ -3,6 +3,9 @@ layout: index
 image: myhead.jpg
 ---
 ## About me
+
+This is a debugging message: {{ site.url }}
+
 I'm a third year DPhil (PhD) student at the University of Oxford, supervised by
 [Paul Goldberg](http://www.cs.ox.ac.uk/people/paul.goldberg/index1.html).
 My current research focuses on pricing and auctions, specifically determining the viability

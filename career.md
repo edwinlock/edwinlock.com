@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Research
-image: map.svg
-caption: "A map of the British Isles with Oxford highlighted."
+image: Valerian_Career.jpg
+caption: "Theoretical Physicist | Nuclear Fusion Scientist | Physics and Mathematics Tutor"
 ---
 
 ## Education

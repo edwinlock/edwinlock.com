@@ -2,7 +2,7 @@
 layout: default
 title: Teaching
 image: Valerian_Teaching.jpg
-caption: "Lindemann Lecture Theatre."
+caption: "Lindemann Lecture Theatre"
 ---
 
 ## Teaching

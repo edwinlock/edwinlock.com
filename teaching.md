@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Teaching
-image: newunilogo.svg
-caption: "Coat of arms of the University of Oxford."
+image: Valerian_Teaching.jpg
+caption: "Lindemann Lecture Theatre, University of Oxford."
 ---
 
 ## Teaching

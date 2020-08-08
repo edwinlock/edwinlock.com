@@ -2,7 +2,7 @@
 layout: default
 title: Research
 image: Valerian_Research.jpg
-caption: "View from Magdalen Tower"
+caption: "Shedding light"
 ---
 
 ## Research

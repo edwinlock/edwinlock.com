@@ -2,7 +2,7 @@
 layout: default
 title: Teaching
 image: Valerian_Teaching.jpg
-caption: "Lindemann Lecture Theatre, University of Oxford."
+caption: "Lindemann Lecture Theatre."
 ---
 
 ## Teaching

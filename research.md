@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Research
-image: Valerain_Research.jpg
-caption: "A map of the British Isles with Oxford highlighted."
+image: Valerian_Research.jpg
+caption: "View from Magdalen Tower."
 ---
 
 ## Research

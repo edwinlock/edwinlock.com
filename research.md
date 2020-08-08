@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research
-image: map.svg
+image: Valerain_Research.jpg
 caption: "A map of the British Isles with Oxford highlighted."
 ---
 

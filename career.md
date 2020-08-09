@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research
+title: Career
 image: Valerian_Career.jpg
 caption: "Theoretical Physicist | Nuclear Fusion Scientist | Physics and Mathematics Tutor"
 ---

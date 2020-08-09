@@ -2,7 +2,7 @@
 layout: default
 title: Contact
 image: map.svg
-caption: "A map of the British Isles with Oxford highlighted."
+caption: "Red dot marks the spot."
 ---
 
 ## Get in touch

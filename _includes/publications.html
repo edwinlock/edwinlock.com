@@ -1,8 +1,8 @@
 <div class='mt-4'>
 
-  <h2>Publications</h2>
+  <h2>Journal Publications</h2>
 
-  {% assign papers = site.publications | sort:'number','last' %}
+  {% assign papers = site.papers | sort:'number','last' %}
 
   {% for paper in papers %}
 
@@ -10,12 +10,48 @@
     <a class="badge badge-pill badge-secondary" href="{{ paper.link }}">link</a>
     <br>
     <small class="text-secondary">
-    {{ paper.authors}}.
+    {{ paper.authors }}.
     <br>
     {{ paper.journal }}
     {% if paper.issue %} {{paper.issue }}, {% endif %}
     {% if paper.page %} {{paper.page }} {% endif %}
     ({{ paper.year }})
+    </small> <br><br>
+  {% endfor %}
+
+  <h2>Book Chapters</h2>
+
+  {% assign chapters = site.chapters | sort:'number','last' %}
+
+  {% for chapter in chapters %}
+
+     {{ chapter.title }}
+     <a class="badge badge-pill badge-secondary" href="{{ chapter.link }}">link</a>
+     <br>
+     <small class="text-secondary">
+     {{ chapter.authors }}.
+     <br>
+     In {{ chapter.book }},
+     Eds. {{ chapter.editors }},
+     {{ chapter.publisher }}
+     ({{ chapter.year }})
+     </small> <br><br>
+  {% endfor %}
+
+  <h2>Conferences</h2>
+  {% assign conferences = site.conferences | sort:'number','last' %}
+
+  {% for conference in conferences %}
+
+    {{ conference.title }}
+    <a class="badge badge-pill badge-secondary" href="{{ paper.link }}">link</a>
+    <br>
+    <small class="text-secondary">
+    {{ conference.authors }}.
+    <br>
+    {{ conference.name }}
+    {% if conference.type %} {{conference.type }}, {% endif %}
+    ({{ conference.year }})
     </small> <br><br>
   {% endfor %}
 

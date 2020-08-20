@@ -18,5 +18,6 @@ formurl: https://formspree.io/myynorgy
 
 # DON'T CHANGE THIS
 collections:
-  publications:
-  preprints:
+  papers:
+  bookchapters:
+  conferences:

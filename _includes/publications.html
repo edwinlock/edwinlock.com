@@ -44,7 +44,7 @@
   {% for conference in conferences %}
 
     {{ conference.title }}
-    <a class="badge badge-pill badge-secondary" href="{{ paper.link }}">link</a>
+    {% if conference.link %} <a class="badge badge-pill badge-secondary" href="{{ conference.link }}">link</a> {% endif %}
     <br>
     <small class="text-secondary">
     {{ conference.authors }}.
@@ -54,6 +54,6 @@
     ({{ conference.year }})
     </small> <br><br>
   {% endfor %}
-  
+
 
 </div>

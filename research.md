@@ -11,6 +11,8 @@ I am working towards a DPhil (PhD) under the supervision of [Felix Parra](https:
 
 <div align="center">
   <a href="https://orcid.org/0000-0001-6009-3649"><i class="ai ai-orcid-square"></i></a>
+  <a href="https://www.researchgate.net/profile/Valerian_Hall-Chen"><i class="ai ai-researchgate-square"></i></a>
+  <a href="https://scholar.google.co.uk/citations?user=uMccrC4AAAAJ"><i class="ai ai-google-scholar-square"></i></a>
 </div>
 
 {% include publications.html %}

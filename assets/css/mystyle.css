@@ -16,6 +16,11 @@ p {
 	display: block;
 }
 
+.social-icon {
+  width: 1.5em; 
+  height: 1.5em;
+}
+
 a {
 	color: #6c757d;
 }

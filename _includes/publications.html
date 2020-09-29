@@ -49,8 +49,8 @@
     <small class="text-secondary">
     {{ conference.authors }}.
     <br>
-    {{ conference.name }}
-    {% if conference.type %} , {{conference.type }} {% endif %}
+    {{ conference.name }},
+    {% if conference.type %} {{conference.type }} {% endif %}
     ({{ conference.year }})
     </small> <br><br>
   {% endfor %}

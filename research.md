@@ -13,8 +13,8 @@ I am working towards a DPhil (PhD) under the supervision of [Felix Parra](https:
   <a class="social-icon" href="https://orcid.org/0000-0001-6009-3649" target="_blank"><i class="ai ai-orcid-square"></i></a>
   <a class="social-icon" href="https://www.researchgate.net/profile/Valerian_Hall-Chen" target="_blank"><i class="ai ai-researchgate-square"></i></a>
   <a class="social-icon" href="https://scholar.google.co.uk/citations?user=uMccrC4AAAAJ" target="_blank"><i class="ai ai-google-scholar-square"></i></a>
+    <a class="social-icon" href="https://publons.com/researcher/AAE-5385-2019/" target="_blank"><i class="ai ai-Publons-Square"></i></a>
 </div>
-
 {% include publications.html %}
 
 [↳ Full CV](assets/files/CV_Valerian.pdf){: .btn .btn-outline-secondary .btn-center}

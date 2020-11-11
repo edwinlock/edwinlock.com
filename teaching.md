@@ -7,7 +7,7 @@ caption: "The big picture"
 
 ## Teaching
 
-I take great pleasure in teaching; it is definitely something I would like to do more of at some point.
+I take great pleasure in teaching.
 
 ##### College Tutor (2019 to present)
 * Taught seven first-year physics students at New College, University of Oxford

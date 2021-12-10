@@ -2,15 +2,15 @@
 layout: default
 title: Career
 image: Valerian_Career.jpg
-caption: "Theoretical Physicist | Nuclear Fusion Scientist | Physics and Mathematics Tutor"
+caption: "Theoretical Physicist | Fusion Scientist"
 ---
 
 ## Education
 
-#### University of Oxford (2016 &ndash; present)
+#### University of Oxford (2016 &ndash; 2021)
 *DPhil in Theoretical Physics*
 
-* **Thesis title**: Using beam tracing and reciprocity to interpret measurements of turbulence in fusion plasmas.
+* **Thesis title**: Beam model of Doppler backscattering: theory and experiment.
 * **Supervisors**: Felix Parra (Oxford) and Jon Hillesheim (UKAEA/CCFE).
 * **Courses attended**: Kinetic Theory, Advanced Fluid Dynamics, Collisional Plasma Physics, Collisionless Plasma Physics.
 
@@ -23,7 +23,7 @@ caption: "Theoretical Physicist | Nuclear Fusion Scientist | Physics and Mathema
 * **Part II**: Experimental and Theoretical Physics.
 
 
-#### National Junior College (2008 – 2009)
+#### National Junior College (2008 &ndash; 2009)
 *Singapore-Cambridge GCE Advanced Level*
 
 * **H2**: Physics (A), Chemistry (A), Mathematics (A), Knowledge & Inquiry (A)
@@ -32,13 +32,19 @@ caption: "Theoretical Physicist | Nuclear Fusion Scientist | Physics and Mathema
 
 ## Work Experience
 
-#### Institute of Materials Research and Engineering, A*STAR (2016 – 2016)
+#### Institute of High Performance Computing, A*STAR (2021 &ndash; present)
+*Scientist I*
+
+I am working on microwaves for fusion energy.
+
+
+#### Institute of Materials Research and Engineering, A*STAR (2016 &ndash; 2016)
 *Specialist I (with Joel Yang)*
 
 I worked on novel structures for 2D and 3D colour printing near and at the diffraction limit.
 
 
-#### Institute of High Performance Computing, A*STAR (2015 – 2016)
+#### Institute of High Performance Computing, A*STAR (2015 &ndash; 2016)
 *Research Engineer (with Jason Png)*
 
 I worked in the plasmonics and photonics group, understanding and designing metasurfaces and nonlinear photonic waveguides. I also co-supervised three high school student interns.

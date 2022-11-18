@@ -11,4 +11,4 @@ In response to the COVID-19 pandemic, I co-founded [Test and Contain](http://tes
 
 Prior to my doctoral studies, I completed a BSc in Mathematics (2012-2016) at Germany's state distance learning university FernUniversität Hagen and an MSc in Mathematics and Computer Science (2017-2018) at the University of Oxford. I also hold a BA degree in Music (2008-2012) from the University of Oxford.
 
-[↳ Download CV](assets/files/cv.pdf){: .btn .btn-outline-secondary .btn-center}
+[↳ Download CV](pdfs/cv.pdf){: .btn .btn-outline-secondary .btn-center}

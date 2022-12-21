@@ -35,4 +35,4 @@ lectures, including
   * Design and Analysis of Algorithms
   * Imperative Programming I, II and III.
 
-[↳ Full CV](assets/files/cv.pdf){: .btn .btn-outline-secondary .btn-center}
+[↳ Full CV](pdfs/cv.pdf){: .btn .btn-outline-secondary .btn-center .mt-3}

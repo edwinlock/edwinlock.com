@@ -2,8 +2,8 @@
 number: 2
 title: "The arctic product-mix market: unifying revenue and welfare"
 authors: "Simon Finster, Paul Goldberg and Edwin Lock"
-link: "pdfs/unifying_rev_and_welfare2.pdf"
+link: "pdfs/arctic_auction2.pdf"
 venue: "working paper"
-year: "2022"
+year: "2023"
 ---
 

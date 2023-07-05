@@ -1,0 +1,49 @@
+- number: 1
+  title: "Solving Strong-Substitutes Product-Mix Auctions"
+  authors: "Elizabeth Baldwin, Paul W Goldberg, Paul Klemperer and <strong>Edwin Lock</strong>"
+  arXiv: "https://arxiv.org/abs/1909.07313"
+  venue: Mathematics of Operations Research
+  year: forthcoming
+
+- number: 2
+  title: "Welfare-Maximizing Pooled Testing"
+  note: "Exemplary track paper award"
+  authors: "Simon Finster, Michelle González Amador, <strong>Edwin Lock</strong>, Francisco Marmolejo-Cossío, Evi Micha, Ariel D. Procaccia"
+  arXiv: "https://arxiv.org/abs/2206.10660"
+  venue: "24th ACM Conference on Economics and Computation"
+  year: "2023"
+
+- number: 3
+  title: "Learning Strong Substitutes Demand via Queries (journal version)"
+  authors: "Paul W Goldberg, <strong>Edwin Lock</strong> and Francisco Marmolejo-Cossío"
+  arXiv: "https://arxiv.org/abs/2005.01496"
+  link: "https://dl.acm.org/doi/10.1145/3546604"
+  venue: "ACM Transactions on Economics and Computation"
+  year: "2022"
+
+- number: 4
+  title: "Optimal Testing and Containment Strategies for Universities in Mexico amid COVID-19"
+  authors: "
+  Luis Benavides-Vázquez, Héctor Alonso Guzmán-Gutiérrez, Jakob Jonnerby, Philip Lazos, <strong>Edwin Lock</strong>, Francisco J. Marmolejo-Cossío, Ninad Rajgopal and José Roberto Tello-Ayala"
+  venue: "EAAMO'21: The ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization"
+  link: "https://doi.org/10.1145/3465416.3483300"
+  file: "https://edwinlock.com/pdfs/eaamo21.pdf"
+  year: "2021"
+
+- number: 5
+  title: "Learning Strong Substitutes Demand via Queries"
+  note: "Nominated for best paper"
+  authors: "Paul W Goldberg, <strong>Edwin Lock</strong> and Francisco Marmolejo-Cossío"
+  link: "https://doi.org/10.1007/978-3-030-64946-3_28"
+  arXiv: "https://arxiv.org/abs/2005.01496"
+  venue: "WINE 2020: The 16th Conference on Web and Internet Economics"
+  year: "2020"
+
+- number: 6
+  title: "Characterising and recognising game-perfect graphs"
+  authors: "Stephan Dominique Andres and <strong>Edwin Lock</strong>"
+  link: "https://dmtcs.episciences.org/5499/pdf"
+  venue: "Discrete Mathematics and Theoretical Computer Science (DMTCS)"
+  misc: "vol. 21:1, #6"
+  year: 2019
+

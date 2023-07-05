@@ -6,13 +6,13 @@ caption: "A network-based SIR simulation of a COVID-19 outbreak."
 ---
 
 ## Research
-My doctoral research focuses on pricing and auctions, specifically providing complexity
+My research focuses on pricing and auctions, specifically providing complexity
 bounds and designing effective algorithms for determining viability of mechanisms in the
 dual settings of social welfare and revenue maximisation. This stimulating and active area of
 research has an abundance of open problems and deep implications for the world outside of
 academia.
 
-My work on the Product-Mix Auction (PMA), a multi-unit, multi good auction initially
+My work on the [Product-Mix Auction (PMA)](http://pma.nuff.ox.ac.uk), a multi-unit, multi good auction initially
 proposed by [Paul Klemperer](http://www.paulklemperer.org) for the Bank of England to provide
 liquidity to financial institutions during the crisis of 2007-8, focuses on finding
 effective algorithms to solve the auction with respect to social welfare and revenue
@@ -34,4 +34,4 @@ submitted to GCEC'20 (received best poster video award).
 {% include preprints.html %}  
   
 
-[↳ Full CV](pdfs/cv.pdf){: .btn .btn-outline-secondary .btn-center .mt-3}
+[Download CV](pdfs/cv.pdf){: .btn .btn-outline-primary .mt-3}

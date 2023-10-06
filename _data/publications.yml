@@ -1,8 +1,9 @@
 - title: "Substitutes markets with budget constraints: solving for competitive and optimal prices"
   authors: "Simon Finster, Paul Goldberg and Edwin Lock"
   venue: "WINE 2023: The 19th Conference on Web and Internet Economics"
-  year: "2023"
+  arxiv: "https://arxiv.org/abs/2310.03692"
   file: "pdfs/wine23.pdf"
+  year: "2023"
 
 - title: "Solving Strong-Substitutes Product-Mix Auctions"
   authors: "Elizabeth Baldwin, Paul W Goldberg, Paul Klemperer and <strong>Edwin Lock</strong>"

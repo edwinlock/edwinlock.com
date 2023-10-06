@@ -1,7 +1,7 @@
 - title: "Substitutes markets with budget constraints: solving for competitive and optimal prices"
   authors: "Simon Finster, Paul Goldberg and Edwin Lock"
   venue: "WINE 2023: The 19th Conference on Web and Internet Economics"
-  arxiv: "https://arxiv.org/abs/2310.03692"
+  arXiv: "https://arxiv.org/abs/2310.03692"
   file: "pdfs/wine23.pdf"
   year: "2023"
 
@@ -30,6 +30,7 @@
 - title: "Optimal Testing and Containment Strategies for Universities in Mexico amid COVID-19"
   authors: "Luis Benavides-Vázquez, Héctor Alonso Guzmán-Gutiérrez, Jakob Jonnerby, Philip Lazos, <strong>Edwin Lock</strong>, Francisco J. Marmolejo-Cossío, Ninad Rajgopal and José Roberto Tello-Ayala"
   venue: "EAAMO'21: The ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization"
+  arXiv: "https://arxiv.org/abs/2306.17191"
   link: "https://doi.org/10.1145/3465416.3483300"
   file: "https://edwinlock.com/pdfs/eaamo21.pdf"
   year: "2021"
@@ -44,6 +45,7 @@
 
 - title: "Characterising and recognising game-perfect graphs"
   authors: "Stephan Dominique Andres and <strong>Edwin Lock</strong>"
+  arXiv: "https://arxiv.org/pdf/1810.12439.pdf"
   link: "https://dmtcs.episciences.org/5499/pdf"
   venue: "Discrete Mathematics and Theoretical Computer Science (DMTCS)"
   misc: "vol. 21:1, #6"

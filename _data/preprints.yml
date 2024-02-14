@@ -1,8 +1,9 @@
 - title: "The Computational Complexity of the Housing Market"
   authors: "Edwin Lock, Zephyr Qiu and Alexander Teytelboym"
-  venue: "Preprint"
+  venue: "ArXiv preprint"
   year: "2024"
   file: "pdfs/housing-market.pdf"
+  arXiv: "https://arxiv.org/abs/2402.08484"
 
 - title: "Maximising the Benefits of an Acutely Limited Number of COVID-19 Tests"
   authors: "Jakob Jonnerby, Philip Lazos, Edwin Lock, Francisco Marmolejo-Cossío, C. Bronk Ramsey, Meghana Shukla and Divya Sridhar"

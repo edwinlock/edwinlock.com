@@ -1,6 +1,13 @@
+- title: "The Computational Complexity of the Housing Market"
+  authors: "Edwin Lock, Zephyr Qiu and Alexander Teytelboym"
+  venue: "The 17th International Symposium on Algorithmic Game Theory (SAGT'24)"
+  year: "2024"
+  file: "pdfs/housing-market.pdf"
+  arXiv: "https://arxiv.org/abs/2402.08484"
+
 - title: "Substitutes markets with budget constraints: solving for competitive and optimal prices"
   authors: "Simon Finster, Paul Goldberg and Edwin Lock"
-  venue: "WINE 2023: The 19th Conference on Web and Internet Economics"
+  venue: " The 19th Conference on Web and Internet Economics (WINE'23)"
   arXiv: "https://arxiv.org/abs/2310.03692"
   file: "pdfs/wine23.pdf"
   year: "2023"
@@ -17,19 +24,19 @@
   authors: "Simon Finster, Michelle González Amador, Edwin Lock, Francisco Marmolejo-Cossío, Evi Micha, Ariel D. Procaccia"
   arXiv: "https://arxiv.org/abs/2206.10660"
   link: "https://dl.acm.org/doi/pdf/10.1145/3580507.3597709"
-  venue: "24th ACM Conference on Economics and Computation"
+  venue: "24th ACM Conference on Economics and Computation (EC'24)"
   year: "2023"
 
 - title: "Learning Strong Substitutes Demand via Queries (journal version)"
   authors: "Paul W Goldberg, Edwin Lock and Francisco Marmolejo-Cossío"
   arXiv: "https://arxiv.org/abs/2005.01496"
   link: "https://dl.acm.org/doi/10.1145/3546604"
-  venue: "ACM Transactions on Economics and Computation"
+  venue: "ACM Transactions on Economics and Computation (TEAC)"
   year: "2022"
 
 - title: "Optimal Testing and Containment Strategies for Universities in Mexico amid COVID-19"
   authors: "Luis Benavides-Vázquez, Héctor Alonso Guzmán-Gutiérrez, Jakob Jonnerby, Philip Lazos, Edwin Lock, Francisco J. Marmolejo-Cossío, Ninad Rajgopal and José Roberto Tello-Ayala"
-  venue: "EAAMO'21: The ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization"
+  venue: "The ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO'21)"
   arXiv: "https://arxiv.org/abs/2306.17191"
   link: "https://doi.org/10.1145/3465416.3483300"
   file: "https://edwinlock.com/pdfs/eaamo21.pdf"
@@ -40,7 +47,7 @@
   authors: "Paul W Goldberg, Edwin Lock and Francisco Marmolejo-Cossío"
   link: "https://doi.org/10.1007/978-3-030-64946-3_28"
   arXiv: "https://arxiv.org/abs/2005.01496"
-  venue: "WINE 2020: The 16th Conference on Web and Internet Economics"
+  venue: "The 16th Conference on Web and Internet Economics (WINE'20)"
   year: "2020"
 
 - title: "Characterising and recognising game-perfect graphs"
@@ -50,4 +57,3 @@
   venue: "Discrete Mathematics and Theoretical Computer Science (DMTCS)"
   misc: "vol. 21:1, #6"
   year: 2019
-

@@ -6,7 +6,7 @@ caption: "A network-based SIR simulation of a COVID-19 outbreak."
 ---
 
 ## Research
-My research focuses on pricing and auctions, specifically providing complexity
+<!-- My research focuses on pricing and auctions, specifically providing complexity
 bounds and designing effective algorithms for determining viability of mechanisms in the
 dual settings of social welfare and revenue maximisation. This stimulating and active area of
 research has an abundance of open problems and deep implications for the world outside of
@@ -28,11 +28,18 @@ limited testing resources in an optimal way so as to minimise the impact on the 
 livelihoods of those who are hardest hit in LMICs. This project is supported by an ACM SIGecom
 GCEC'20 grant. For more information, watch the 1 minute
 [poster video](https://www.youtube.com/watch?v=RHAzUeewFP0)
-submitted to GCEC'20 (received best poster video award).
+submitted to GCEC'20 (received best poster video award). -->
 
-{% include publications.html %}
-{% include preprints.html %}
-{% include press.html %}
+#### Publications
+{% assign papers = site.data.publications %}
+{% include paperlist.html %}
 
+#### Working papers
+{% assign papers = site.data.preprints %}
+{% include paperlist.html %}
 
-[Download CV](pdfs/cv.pdf){: .btn .btn-outline-primary .mt-5}
+#### Press
+{% assign papers = site.data.press %}
+{% include paperlist.html %}
+
+[Download CV](pdfs/cv.pdf){: .btn .btn-outline-primary}

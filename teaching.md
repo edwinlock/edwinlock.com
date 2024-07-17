@@ -5,34 +5,24 @@ image: newunilogo.svg
 caption: "Coat of arms of the University of Oxford."
 ---
 
-## Teaching
+## Teaching & Supervision
 
-I enjoy teaching the computer science curriculum, both in a one-to-one tutorial setting and
-in the classroom.
+<!-- I enjoy teaching the computer science curriculum, both in a one-to-one tutorial setting and
+in the classroom. -->
 
-##### Stipendiary Lecturer at Balliol College, University of Oxford
-* Taught undergraduate computer science students in various subjects including
-  * Compilers
-  * Concurrent Programming
-  * Digital Systems
-  * Imperative Programming
-  * Linear Algebra
-* Assisting with the admission of undergraduate students in Computer Science at Balliol College.
-* Setting and marking College collections (exams).
+##### Departmental and Tutorial Teaching
+* Taught postgraduate course in Computational Complexity.
+* Supervised MSc theses (all awarded distinction).
+* Demonstrated practicals for various courses.
+* Taught Oxford and visiting students in mathematics and computer science at a variety of Oxford Colleges
 
-##### Tutorial Teaching
-* Taught two visiting computer science students at Lady Margaret Hall, University of Oxford in
-  * Linear Algebra
-  * Imperative Programming I, II and III
-* Taught one visiting mathematics and CS student at Pembroke College, University of Oxford in
-  * Design and Analysis of Algorithms.
+##### Lecturer at Balliol College, Oxford University (2020-2022)
+* Taught undergraduate students in variety of mathematics and computer science courses.
+* Assisting with undergraduate admissions.
+* Set examinations.
 
-##### Departmental Teaching
-* Departmental class tutoring for
-  * Computational Complexity
-* Practical demonstrator supervising lab demonstration sessions accompanying various
-lectures, including
-  * Design and Analysis of Algorithms
-  * Imperative Programming I, II and III.
+##### Supervision
+* Currently supervising undergraduate projects at Harvard University.
+* Past supervision of postdoc hired under ACM GCEC'20 grant, and student interns from Harvard and Edinburgh Universities as part of my Test and Contain research project.
 
-[↳ Full CV](pdfs/cv.pdf){: .btn .btn-outline-secondary .btn-center .mt-3}
+[Download CV](pdfs/cv.pdf){: .btn .btn-outline-secondary .btn-center .mt-3}

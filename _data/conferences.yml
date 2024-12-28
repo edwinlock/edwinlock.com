@@ -2,6 +2,7 @@
   authors: "Edwin Lock, Benjamin Patrick Evans, Eleonora Kreacic, Sujay Bhatt, Alec Koppel, Sumitra Ganesh, and Paul Goldberg"
   venue: "The 39th Conference on Artificial Intelligence (AAAI'25)"
   year: "2024"
+  arXiv: "https://arxiv.org/abs/2412.13972"
 
 - title: "The Computational Complexity of the Housing Market"
   authors: "Edwin Lock, Zephyr Qiu, and Alexander Teytelboym"

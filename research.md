@@ -6,6 +6,7 @@ caption: "A network-based SIR simulation of a COVID-19 outbreak."
 ---
 
 ## Research
+
 <!-- My research focuses on pricing and auctions, specifically providing complexity
 bounds and designing effective algorithms for determining viability of mechanisms in the
 dual settings of social welfare and revenue maximisation. This stimulating and active area of

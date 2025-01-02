@@ -19,19 +19,17 @@
 
     <br>
     <small class="text-secondary">
-        
-        {% if paper.note %} <span class="text-success">{{ paper.note }}</span> <br> {% endif %}
+        {% if paper.award %} <span class="text-success">{{ paper.award }}</span> <br> {% endif %}
         
         {{ paper.authors}}.
         
         <br>
         
-        {{ paper.venue }},
-        
-        {% if paper.misc %} {{ paper.misc }} {% endif %}
-        
-        {{ paper.year }}
+        {{paper.venue}}<!--
+        -->{%if paper.misc%}, {{ paper.misc }} {% endif %}<!--
+        -->{% if paper.year %}, {{ paper.year }} {% endif %}
 
+        {% if paper.note %}<br> <span class="">{{ paper.note }}</span>{% endif %}
     </small>
     </div>
 

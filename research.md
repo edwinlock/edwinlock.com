@@ -30,8 +30,12 @@ GCEC'20 grant. For more information, watch the 1 minute
 [poster video](https://www.youtube.com/watch?v=RHAzUeewFP0)
 submitted to GCEC'20 (received best poster video award). -->
 
-#### Publications
-{% assign papers = site.data.publications %}
+#### Journal Papers
+{% assign papers = site.data.journals %}
+{% include paperlist.html %}
+
+#### Conference Papers
+{% assign papers = site.data.conferences %}
 {% include paperlist.html %}
 
 #### Working papers

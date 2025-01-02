@@ -1,3 +1,10 @@
+- title: "Competitive and Revenue-Optimal Pricing with Budgets"
+  authors: "Simon Finster, Paul Goldberg, and Edwin Lock"
+  venue: "<strong>Revise & Resubmit</strong> at Theoretical Economics"
+  # arXiv: "https://arxiv.org/abs/2310.03692"
+  file: "pdfs/TE-optimal-pricing.pdf"
+  note: "Latest version: 2024"
+
 - title: "Solving Strong-Substitutes Product-Mix Auctions"
   authors: "Elizabeth Baldwin, Paul W Goldberg, Paul Klemperer and Edwin Lock"
   arXiv: "https://arxiv.org/abs/1909.07313"

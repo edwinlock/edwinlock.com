@@ -1,6 +1,12 @@
+- title: "Accelerated Preference Elicitation with LLM-Based Proxies"
+  authors: "David Huang, Francisco Marmolejo-Cossío, Edwin Lock and David Parkes"
+  venue: "ArXiv preprint"
+  year: "2025"
+  link: "https://arxiv.org/abs/2501.14625"
+
 - title: "Implementing Walrasian Equilibrium: The Languages of Product-Mix Auctions"
   authors: "Elizabeth Baldwin, Paul Klemperer and Edwin Lock"
-  venue: "Working Paper"
+  venue: "SSRN working paper"
   year: "2024"
   file: "pdfs/PMA-language.pdf"
   link: "https://www.ssrn.com/abstract=4931623"

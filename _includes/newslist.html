@@ -1,7 +1,8 @@
 <div class="mb-4">
     {% for news in newslist %}
         <div class='mt-2'>
-            <strong>{{ news.date}}:</strong> {{news.content}}
+            <strong>{{ news.date }}</strong>
+            {{news.content | markdownify}}
         </div>
     {% endfor %}
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: index
-image: myhead.jpg
+image: profile.png
 ---
 ## About me
 I'm a postdoctoral researcher at the Computer Science Department at Oxford University.
@@ -17,4 +17,7 @@ I'm currently focusing on computational questions arising in auctions and market
 
 Prior to my doctoral studies in Computer Science at Oxford, I completed a BSc in Mathematics at FernUniversität Hagen and an MSc in Mathematics and Computer Science at Oxford University. I also hold a BA in Music from Oxford.
 
+### Recent news
 
+{% assign newslist = site.data.news %}
+{% include newslist.html %}

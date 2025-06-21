@@ -1,0 +1,386 @@
+---
+title: "Towards Human-Centred Mechanism Design"
+author: Edwin Lock
+institute: Oxford University
+date: 23 June 2025
+date-format: "D MMMM YYYY"
+format:
+    revealjs:
+        preview-links: auto
+        css: style.css
+        logo: images/oxford.png
+        # footer: 'EVENT NAME'
+        center: true
+        smaller: true
+        # theme: simple
+        # slide-number: true
+---
+
+
+## Funding an Auditorium {auto-animate=true}
+<!-- Suppose we want to secure a funder for the main auditorium of our new institute. -->
+
+![](images/auditorio.png){fig-align="center"}
+
+## Funding an Auditorium {auto-animate=true}
+
+$\ $
+
+![](images/auditorio.png){fig-align="center"}
+
+$\ $
+
+**Posted-price:** "Announce the price and choose any benefactor willing to pay the price."
+
+. . .
+
+**First-price auction:** "Invite all benefactors to submit a sealed bid. The highest bidder wins and pays their bid."
+
+. . .
+
+**Second-price auction:** "Invite all benefactors to submit a sealed bid. The highest bidders wins and pays the second-highest bid."
+
+. . .
+
+**Revenue Equivalence Theorem:** first- and second-price auctions raise same amount of money.
+
+
+## Mechanism Design
+
+> "The theory of mechanism design can be thought of as the engineering side of economic theory."
+<br>
+--- Eric Maskin
+
+. . .
+
+#### Design Objectives
+
+::: {.item-container}
+* **Efficiency**
+    Maximize welfare
+* **Optimality**
+    Maximise seller revenue
+* **Stability**
+    No deviations
+* **Individual rationality**
+    Voluntary participation
+* **Incentive compatibility**
+    Truth-telling optimal
+* **Fairness**
+    Fair outcomes
+:::
+
+... and many more.
+
+
+
+## Success Stories
+<!-- {background-color="aquamarine"} -->
+
+:::: {.columns}
+
+::: {.column}
+<span class="emoji-overlay">
+  <span class="base-emoji">💰</span>
+</span>
+
+- Ad auctions
+- Spectrum auctions
+- Central Banking & Finance
+- Cryptocurrencies & Blockchain
+:::
+
+::: {.column}
+<span class="emoji-overlay">
+  <span class="base-emoji">💰</span>
+  <span class="overlay-emoji">❌</span>
+</span>
+
+- Paired kidney donation
+- School choice mechanisms
+- National Resident Matching Program
+- Course allocation
+:::
+
+::::
+
+
+## Ad Auctions
+* Ad auctions drives USD 600+ billion in advertising revenue per year
+
+![](images/googleads.png){width="80%" fig-align="center"}
+
+* Primary objective: revenue (subject to long-term advertiser happiness)
+* "Intuitive" interfaces for advertisers
+
+::: {.notes}
+Google switched from second-price to first-price auctions in 2020-2021 to simplify bidding.
+:::
+
+
+## Spectrum Auctions
+
+::: {layout-ncol=2}
+![The Guardian, 2018](images/UK-spectrum.png){width=100%}
+
+![The Economist, 2021](images/US-spectrum.png){width=100%}
+:::
+
+* Typically run as simultaneous ascending multi-round auctions (SMRAs).
+* EU countries are legally obliged to prioritise social welfare over revenue.
+* Can lead to highly strategic behaviour (collusion, bid signalling, aggressive bidding).
+
+## Liquidity in Banking Systems
+<!-- Product-Mix Auctions (PMAs): easy-to-use, single-round, sealed-bid auctions to sell multiple units of multiple goods. -->
+After 2007-8 financial crisis, the Bank of England needed a mechanism to provide liquidity to financial institutions.
+
+:::: {.columns}
+
+::: {.column width=70%}
+* The **Product-Mix Auction** was developed in 2007-8 by Paul Klemperer for the BoE.
+* Currently run weekly to provide loans of funds to financial institutions.
+* Bidders use intuitive "bidding language".
+* The BoE can adapt supply to meet increased demand caused by liquidity stress.
+:::
+::: {.column width=30%}
+![Mervyn King, former BoE Governor](images/marvellous.png){width=80%}
+:::
+::::
+
+::: aside
+Paul Klemperer has also advised the Banco de México on related auction mechanisms.
+:::
+
+
+## Paired Kidney Donation
+
+* Many patients have a willing but medically incompatible donor.
+* They can join a paired donation programme as a patient-donor pair.
+
+<!-- * In a two-way swap, two pairs exchange kidneys.
+* You can also have larger cycles, or chains (with altruistic donors). -->
+
+![](images/kpd.jpeg){fig-align="center" width=40%}
+
+* **Objective:** Optimal arrangement of exchanges (factors in medical urgency, waiting time, compatibility between donor and patient)
+* **Individual rationality:** a donor should only give a kidney if her patient receives one.
+* Limited cycle / chain length leads to computational challenges.
+
+
+## School Choice
+
+* Some basic information
+
+[Considering removing this in the interest of time.]
+
+## Computation
+Mechanism Design now equally at home in Economics and Computer Science.
+
+- Auction theory
+- Matching
+- Social Choice
+- Contract Theory
+- Evolutionary Game Theory
+
+
+Mechanisms for real-life problems require (non-trivial) computations!
+
+* It can be computationally intractable to compute outcomes.
+* Approximating solutions is tractable.
+* How hard is it for agents to be strategic?
+
+# Human-Centric Design
+
+## Solving Society's Pressing Problems
+
+Many problems are highly complex, and have many stakeholders.
+
+* Equitable & efficient healthcare provision
+* Environmental protection
+* Educational initiatives for disadvantaged communities
+* Land allocation to indigenous groups
+* Refugee resettlement
+
+
+## Challenges in complex settings
+
+In many settings, we hit fundamental theoretical or computational limits.
+
+**Example: The Vickrey-Clarkes-Groves Auction**
+
+1. Ask each bidder to submit a bid for each bundle of goods.
+2. Allocate the goods to maximise welfare.
+3. Charge each bidder the *harm they have caused the other agents*
+
+This auction is incentive-compatible!
+
+. . . 
+
+**The bad news**
+
+* This auction is not computationally tractable (even to approximate) for many goods and bidders.
+* IC comes at the expense of revenue.
+* Bidders might find the pricing rule intransparent.
+
+## Theory → Practice
+
+**Many proposals to stakeholders are rejected:**
+
+* mechanisms are too complicated for the stake-holders
+* or too hard to understand for non-technical participants
+
+**Practical mechanism design should prioritise:**
+
+1. simplicity & explainability of the mechanism
+2. computational tractability of the problem
+3. ease of interaction (complexity and quantity of communication)
+
+## AI-Enhanced Designs
+
+AI can be a powerful tool to bridge theory and practice.
+
+* **Reinforcement learning** and **neural networks** can make mechanisms more tractable.
+* LLMs can allow participants to **communicate in natural language**.
+
+[Cite some literature!]
+
+* We lose some mathematical performance guarantees.
+* Mechanisms can be applied to much broader domains.
+* We can often *fuse* classical mechanisms with AI elements.
+
+::: {.notes}
+* The success stories emphasise the need for simplicity or ease of use.
+:::
+
+
+## Combinatorial Auctions {auto-animate=true}
+
+::: {.auction-container .goods .large}
+* 🚲
+* 🏠
+* 🍾
+* ⛵️
+:::
+::: {.auction-container .large}
+* 🙋‍♂️
+* 💁🏻
+* 🧕🏽
+:::
+
+Each person has a value for each bundle of goods.
+
+## Combinatorial Auctions {auto-animate=true}
+
+::: {.auction-container .goods .large}
+* 🚲
+* 🏠
+* 🍾
+* ⛵️
+:::
+::: {.auction-container .large}
+* 🙋‍♂️
+* 💁🏻
+* 🧕🏽
+:::
+
+::: {.first-box}
+:::
+::: {.second-box}
+:::
+::: {.third-box}
+:::
+Each person has a value for each bundle of goods.
+
+Exponentially many bundles per agent!
+
+## Combinatorial Auctions {auto-animate=true}
+
+::: {.auction-container}
+* 🚲
+* 🏠
+* 🍾
+* ⛵️
+:::
+::: {.auction-container}
+* 🙋‍♂️
+* 💁🏻
+* 🧕🏽
+:::
+
+State-of-the-art auctions compute optimal outcomes by repeatedly making "mathematical" queries to the buyers:
+
+* **Demand query**: At these prices, which bundle do you want?
+* **Value query**: How much do you value this bundle?
+
+. . .
+
+⚠️  In the real world, asking these queries is cognitively & logistically costly or impossible.
+
+
+## LLM-Proxy Auctions
+
+::: {.key-question}
+**Insight:** We can use LLMs to communicate with buyers in natural language!
+:::
+
+. . .
+
+![](images/LLM-proxy-auction.png){fig-align="center"}
+
+::: aside
+The auctioneer implements the Competitive Equilibrium Combinatorial Auction (Lahaie and Parkes, 2004).
+:::
+
+## LLM-Proxy Auctions
+
+:::: {.columns}
+::: {.column width="75%"}
+* Each proxy maintains a belief of person's preferences.
+* Proxies learn from their person through
+    - natural language conversation
+    - value & demand queries
+* Proxies use chat history to **infer values**.
+:::
+::: {.column width="25%"}
+![](images/proxies.png){fig-align="center" width="100%"}
+:::
+::::
+
+<hr>
+
+**Simulation pipeline for experiments**
+
+* Different LLMs simulate people's responses to natural language questions and value/demand queries.
+* LLM's responses are grounded in a **seed description** generated in natural language.
+
+## LLM-Proxy Auctions
+Experiments with $6$ goods in three contexts using simulation pipeline.
+
+:::: {.columns}
+::: {.column width="40%"}
+![](images/auction-value.png){fig-align="center" width="100%"}
+:::
+::: {.column width="60%"}
+**Result 1 (Auction efficiency):** LLM proxies can achieve higher welfare with less proxy---person communication.
+
+**Result 2 (Long-run performance):** Our best proxy better approximates a person's valuation than traditional mechanisms. The auction with LLM proxies converges to maximum welfare.
+
+**Result 3 (Simulation robustness):** The LLM simulation pipelines behaves similarly with different LLM models.
+:::
+::::
+
+## Dignified Housing
+
+* Brief description of project and goals.
+
+## Takeaways
+
+::: {.conclusion-list}
+* We can, and should, apply mechanism design to solve some of society's most pressing problems.
+* Focusing on simplicity and understandability is key for successful implementations.
+* Integrating AI like LLMs for natural language communication can result in more human-centric mechanisms to better serve the needs of communities.
+:::
+
+Thank you!
+
+Get in touch: [edwin.lock@cs.ox.ac.uk](mailto:edwin.lock@cs.ox.ac.uk) or [edwin.lock@kcl.ac.uk](mailto:edwin.lock@kcl.ac.uk)

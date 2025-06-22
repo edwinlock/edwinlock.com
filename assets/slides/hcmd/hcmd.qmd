@@ -1,7 +1,7 @@
 ---
-title: "Towards Human-Centred Mechanism Design"
+title: "![](images/titleimage.png){width=25%}<br>Towards Human-Centred Mechanism Design"
 author: Edwin Lock
-institute: Oxford University
+institute: Oxford University # "![](images/oxford.png){width=30%}"
 date: 23 June 2025
 date-format: "D MMMM YYYY"
 format:
@@ -14,6 +14,8 @@ format:
         smaller: true
         # theme: simple
         # slide-number: true
+# editor:
+    # render-on-save: true
 ---
 
 
@@ -167,21 +169,30 @@ Paul Klemperer has also advised the Banco de México on related auction mechanis
 * Limited cycle / chain length leads to computational challenges.
 
 
-## School Choice
+##
 
-* Some basic information
+### School Choice
 
-[Considering removing this in the interest of time.]
+* Point one
+
+### National Resident Matching
+
+* Point one
+
+### Course allocation
+
+* Point one
 
 ## Computation
 Mechanism Design now equally at home in Economics and Computer Science.
 
-- Auction theory
-- Matching
-- Social Choice
-- Contract Theory
-- Evolutionary Game Theory
-
+::: {.item-container}
+- **Auction Theory**
+- **Matching Theory**
+- **Social Choice**
+- **Contract Theory**
+- **Evolutionary Game Theory**
+:::
 
 Mechanisms for real-life problems require (non-trivial) computations!
 
@@ -201,6 +212,7 @@ Many problems are highly complex, and have many stakeholders.
 * Land allocation to indigenous groups
 * Refugee resettlement
 
+EAAMO and IPICYT are leading many fantastic efforts.
 
 ## Challenges in complex settings
 
@@ -237,7 +249,7 @@ This auction is incentive-compatible!
 
 ## AI-Enhanced Designs
 
-AI can be a powerful tool to bridge theory and practice.
+AI can provide powerful tools to bridge theory and practice.
 
 * **Reinforcement learning** and **neural networks** can make mechanisms more tractable.
 * LLMs can allow participants to **communicate in natural language**.
@@ -309,7 +321,7 @@ Exponentially many bundles per agent!
 
 State-of-the-art auctions compute optimal outcomes by repeatedly making "mathematical" queries to the buyers:
 
-* **Demand query**: At these prices, which bundle do you want?
+* **Demand query**: At these prices for each bundle, which bundle do you want?
 * **Value query**: How much do you value this bundle?
 
 . . .
@@ -383,4 +395,4 @@ Experiments with $6$ goods in three contexts using simulation pipeline.
 
 Thank you!
 
-Get in touch: [edwin.lock@cs.ox.ac.uk](mailto:edwin.lock@cs.ox.ac.uk) or [edwin.lock@kcl.ac.uk](mailto:edwin.lock@kcl.ac.uk)
+Get in touch: [edwin.lock@cs.ox.ac.uk](mailto:edwin.lock@cs.ox.ac.uk)

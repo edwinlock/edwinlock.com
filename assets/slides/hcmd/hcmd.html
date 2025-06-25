@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Edwin Lock">
-  <meta name="dcterms.date" content="2025-06-23">
+  <meta name="dcterms.date" content="2025-06-25">
   <title> Towards Human-Centred Mechanism Design</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -137,32 +137,61 @@
 Edwin Lock 
 </div>
         <p class="quarto-title-affiliation">
-            Oxford University
+            Oxford University | King’s College London
           </p>
     </div>
 </div>
 
-  <p class="date">23 June 2025</p>
+  <p class="date">25 June 2025</p>
 </section>
 <section id="funding-an-auditorium" class="slide level2 center" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Funding an Auditorium</h2>
-<!-- Suppose we want to secure a funder for the main auditorium of our new institute. -->
 
-<img data-src="images/auditorio.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<img data-src="images/auditorio.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>Suppose we’re opening a new university institute, and we’re looking for a sponsor for our new auditorium.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="funding-an-auditorium-1" class="slide level2 center" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Funding an Auditorium</h2>
 <p><span class="math inline">\(\ \)</span></p>
 
 <img data-src="images/auditorio.png" class="quarto-figure quarto-figure-center r-stretch"><p><span class="math inline">\(\ \)</span></p>
-<p><strong>Posted-price:</strong> “Announce the price and choose any benefactor willing to pay the price.”</p>
+<p><strong>Posted-price:</strong> “Announce a price and choose any sponsor willing to pay the price.”</p>
 <div class="fragment">
-<p><strong>First-price auction:</strong> “Invite all benefactors to submit a sealed bid. The highest bidder wins and pays their bid.”</p>
+<p><strong>First-price auction:</strong> “Invite all sponsors to submit a sealed bid. The highest bidder wins and pays their bid.”</p>
 </div>
 <div class="fragment">
-<p><strong>Second-price auction:</strong> “Invite all benefactors to submit a sealed bid. The highest bidders wins and pays the second-highest bid.”</p>
+<p><strong>Second-price auction:</strong> “Invite all sponsors to submit a sealed bid. The highest bidders wins and pays the second-highest bid.”</p>
 </div>
 <div class="fragment">
 <p><strong>Revenue Equivalence Theorem:</strong> first- and second-price auctions raise same amount of money.</p>
+<aside class="notes">
+<p>A simple strategy is to contact potential sponsors with a fixed price—say £100,000—and choose any one of the sponsors who’ve agreed to this price.</p>
+<p>This mechanism works. But do we really want to limit ourselves to a fixed price? We could extract more sponsorship money by asking all potential sponsors how much they’re like to donate. The highest bidder then “wins” the sponsorship and donates the amount they’ve bid. This is known as a first-price auction.</p>
+<p>But the first-price auction has a disadvantage: bidders typically “shade” their bid by submitting less than their true value. The amount of shading depends on their beliefs of the other bidders in the auction. This strategic behaviour is not ideal because it makes things more complicated.</p>
+<p>Luckily, we can modify our auction slightly to eliminate strategic behaviour: instead of paying their own bid, the highest bidder is asked to pay the second-highest bid. With this small tweak, the potential sponsors are best off simply bidding their true value. So a slightly more complicated rule can still make it much easier for bidders to participate.</p>
+<p>And a deep result in mechanism design—the revenue equivalence theorem—tells us that both auctions end up raising the same amount of money, which is reassuring.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </div>
 </section>
 <section id="mechanism-design" class="slide level2 center">
@@ -183,6 +212,21 @@ Edwin Lock
 </ul>
 </div>
 <p>… and many more.</p>
+<aside class="notes">
+<p>I find this quote very useful to introduce MD: […]</p>
+<p>While much of economics deals with <em>understanding</em> markets in the real world, mechanism design <em>creates</em>, or <em>engineers</em>, mechanisms to achieve desirable properties.</p>
+<p>These desiderata are highly dependent on the problem at hand. But when designing mechanisms, we often care about: …</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </div>
 </section>
 <section id="success-stories" class="slide level2 center">
@@ -205,7 +249,22 @@ Edwin Lock
 <li>National Resident Matching Program</li>
 <li>Course allocation</li>
 </ul>
-</div></div>
+</div><aside class="notes">
+<p>Over the last decades, MD has made a tremendous impact on society and the economy. And instead of giving you an mathematical introduction to MD, I thought I’d start by telling you about a few celebrated success stories.</p>
+<p>MD has fundamentally influenced the internet economy, including digital advertising. It is also central to the allocation of telecommunication spectrum, and underpins mechanisms in central banking and finance.</p>
+<p>These are all examples of mechanisms involving money. But sometimes, it’s undesirable or even illegal to involve money in mechanisms. This includes applications like organ donation, school choice or course allocation mechanisms, and the allocation of medical students to residencies.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
 </section>
 <section id="ad-auctions" class="slide level2 center">
 <h2>Ad Auctions</h2>
@@ -215,10 +274,14 @@ Edwin Lock
 
 <img data-src="images/googleads.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"><ul>
 <li>Primary objective: revenue (subject to long-term advertiser happiness)</li>
-<li>“Intuitive” interfaces for advertisers</li>
+<li>Companies employ teams of mechanism design experts</li>
 </ul>
 <aside class="notes">
-<p>Google switched from second-price to first-price auctions in 2020-2021 to simplify bidding.</p>
+<p>The internet as we know it wouldn’t exist without digital ads. The online ad market is worth a staggering 600+ billion USD.</p>
+<p>Here, for example, you can see that Google alone made over USD 200b last year.</p>
+<p>Google switched from second-price to first-price auctions in 2020-2021, partly because of the simpler payment rule. Does this explain the revenue jump?</p>
+<p>As the graph suggests, the primary objective in these auctions is revenue maximisation. But Google is competing with other tech companies, so their ad mechanism also needs to ensure long-term engagement.</p>
+<p>A significant concern when designing ad auctions, then, the experience of advertisers. Platforms are designed to be intuitive and remove “friction” from the ad buying process.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -258,13 +321,31 @@ Edwin Lock
 </div>
 <ul>
 <li>Typically run as simultaneous ascending multi-round auctions (SMRAs).</li>
-<li>EU countries are legally obliged to prioritise social welfare over revenue.</li>
+<li>EU countries are legally obliged to prioritise welfare (efficiency) over revenue.</li>
 <li>Can lead to highly strategic behaviour (collusion, bid signalling, aggressive bidding).</li>
 </ul>
+<aside class="notes">
+<p>Mobile telecommunication networks are crucial to modern life and the economy, so it’s important that spectrum is allocated efficiently to telecoms.</p>
+<p>Spectrum auctions are now the default mechanism for allocating spectrum to telecom.</p>
+<p>These auctions can take many different forms, but are usually run in the form of ascending-price auctions where the bidders can bid on different bundles of spectrum.</p>
+<ul>
+<li>Typically raise significant amounts of money, but primary objective for the auctioneer should be downstream efficiency.</li>
+</ul>
+<p>The precise design of these auctions is as much an art as a science. Spectrum auctions are typically highly strategic, with agents using a multitude of techniques to achieve their aims.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="liquidity-in-banking-systems" class="slide level2 center">
 <h2>Liquidity in Banking Systems</h2>
-<!-- Product-Mix Auctions (PMAs): easy-to-use, single-round, sealed-bid auctions to sell multiple units of multiple goods. -->
 <p>After 2007-8 financial crisis, the Bank of England needed a mechanism to provide liquidity to financial institutions.</p>
 <div class="columns">
 <div class="column" style="width:70%;">
@@ -283,38 +364,105 @@ Edwin Lock
 </div>
 </div></div>
 
+<aside class="notes">
+<p>After the financial crisis of 2007-8 the Bank of England approached Paul Klemperer, an economist at Oxford, because they needed a new mechanism to provide liquidity to financial institutions.</p>
+<p>The PMA is an auction to simultaneously allocate multiple goods that are available in multiple copies.</p>
+<p>The Bank of England uses it to provide loans to financial institutions. The PMA has been in use for several years and is currently run every week.</p>
+<p>What sets the PMA apart is that it’s simple for bidders to submit their preferences in an intuitive bidding language. The mechanism also allows the Bank to flexibly adjust supply depending on the stress on the financial market, giving them many knobs and levers to tweak outcomes.</p>
+<p>The PMA has allocated over £200b to date. The Governor of the BoE summarised it as […].</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <aside><div>
 <p>Paul Klemperer has also advised the Banco de México on related auction mechanisms.</p>
 </div></aside></section>
 <section id="paired-kidney-donation" class="slide level2 center">
 <h2>Paired Kidney Donation</h2>
 <ul>
-<li>Many patients have a willing but medically incompatible donor.</li>
+<li>Many patients who need a kidney transplant have a willing but medically incompatible donor.</li>
 <li>They can join a paired donation programme as a patient-donor pair.</li>
 </ul>
-<!-- * In a two-way swap, two pairs exchange kidneys.
-* You can also have larger cycles, or chains (with altruistic donors). -->
-
-<img data-src="images/kpd.jpeg" class="quarto-figure quarto-figure-center r-stretch" style="width:40.0%"><ul>
-<li><strong>Objective:</strong> Optimal arrangement of exchanges (factors in medical urgency, waiting time, compatibility between donor and patient)</li>
-<li><strong>Individual rationality:</strong> a donor should only give a kidney if her patient receives one.</li>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/kpd.jpeg" class="quarto-figure quarto-figure-center" style="width:40.0%"></p>
+</figure>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Objective:</strong> Optimal arrangement of exchanges (factors in medical urgency, waiting time, compatibility between donor and patient) <!-- * **Individual rationality:** a donor should only give a kidney if her patient receives one. --></li>
 <li>Limited cycle / chain length leads to computational challenges.</li>
 </ul>
-</section>
+
+<aside class="notes">
+<p>I mentioned before that some mechanisms cannot use money. Organ donation is an excellent example, because it’s illegal to pay for organs in most countries.</p>
+<p>Paired Kidney donation scheme are one of my favourite mechanism designs without money.</p>
+<p>In a nutshell, many patients in need of a kidney have a willing donor who is medically incompatible. These patient-donor pairs can join a “market” together with other patient-donor pairs. And these pairs can then exchange kidneys between them.</p>
+<p>Here you can see an example with three pairs. The donor of Pair A is compatible with the Patient / recipient of Pair B. The donor of Pair B is compatible with the patient of Pair C, and the donor of pair C is compatible with the patient of pair A.</p>
+<p>Paired Kidney donation drastically increases the number of transplants that can be performed each year. KPD schemes have been implemented in several countries, including the US, UK, Netherlands, Canada and Korea.</p>
+<p>It’s also a beautiful application of mechanism design. The objective of the scheme is to find an optimal arrangement of exchanges. This typically factors medical urgency, waiting times, and compatibilities between patients and donors.</p>
+<p>But a key factor in the design is also stability and individual rationality: patient-donor pairs are better off participating in the KPD scheme than if they don’t.</p>
+<p>In practice the size of donation cycles is typically limited. For example, the UK only allows cycles of 2 and 3, because the transplant operations have to be performed simultaneously. This turns out to make the problem of computing optimal donation cycles very challenging. A lot of theoretical work has gone into algorithms for KPD.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+<aside><div>
+<p>Implemented by the US, UK, Netherlands, Canada, Korea, and many other countries.</p>
+</div></aside></section>
 <section id="section" class="slide level2 center">
 <h2></h2>
-<h3 id="school-choice">School Choice</h3>
-<ul>
-<li>Point one</li>
-</ul>
 <h3 id="national-resident-matching">National Resident Matching</h3>
 <ul>
-<li>Point one</li>
+<li>Matches 35,000 medical students to residency programs annually.</li>
+<li>Uses <em>Roth-Peranson matching algorithm</em> (based on Nobel prize winning work by Gale, Shapley, and Roth).</li>
+<li>It’s strategy-proof for the students!</li>
 </ul>
-<h3 id="course-allocation">Course allocation</h3>
+<h3 id="school-choice">School Choice</h3>
 <ul>
-<li>Point one</li>
+<li>Traditional mechanisms encouraged strategic gaming, harming disadvantaged families.</li>
+<li>Used to assign hundreds of thousands of students to public schools (Boston, NYC, Amsterdam, Barcelona, and more).</li>
+<li><em>Student-proposed deferred acceptance algorithm</em> is also strategy-proof.</li>
 </ul>
+<!-- 
+::: {.fragment}
+#### Course allocation
+
+* Fairly assigning university students to oversubscribed courses is hard.
+* Students use artificial currency to bid in a "market for courses".
+* Used at many institutions, e.g., Harvard Business School, Wharton, Stanford, and in UK.
+
+:::  -->
+<aside class="notes">
+<p>I want to, very briefly, give two more celebrated examples of mechanisms without money.</p>
+<p>Firstly, the National Resident Matching Program in the US matches 35,000 medical students with residencies in hospitals every year. It uses the <em>deferred acceptance algorithm</em> proposed by Shapley and Roth, who received a Nobel prize partly for this work. The exchange is incentive-compatible for medical students, and has been extraordinarily successful in fixing the ad-hoc solutions for residencies that existed before.</p>
+<p>Secondly, a modification of the deferred acceptance algorithm has been used in many places to allocate hundreds of thousands of students to public schools. Compared to previous mechanisms, which were often gamed by parents, the new mechanism is strategy-proof. This particularly benefits disadvantaged families, who had limited capacity to strategise.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="computation" class="slide level2 center">
 <h2>Computation</h2>
@@ -323,22 +471,34 @@ Edwin Lock
 <ul>
 <li><strong>Auction Theory</strong></li>
 <li><strong>Matching Theory</strong></li>
-<li><strong>Social Choice</strong></li>
+<li><strong>Fair Division</strong></li>
 <li><strong>Contract Theory</strong></li>
+<li><strong>Voting Systems</strong></li>
+<li><strong>Liquid Democracy</strong></li>
 <li><strong>Evolutionary Game Theory</strong></li>
 </ul>
 </div>
-<p>Mechanisms for real-life problems require (non-trivial) computations!</p>
 <ul>
-<li>It can be computationally intractable to compute outcomes.</li>
-<li>Approximating solutions is tractable.</li>
+<li>Mechanisms for real-life problems require (non-trivial) computations!</li>
+<li>Computations might be infeasible. What about approximations?</li>
 <li>How hard is it for agents to be strategic?</li>
 </ul>
-</section>
-<section>
-<section id="human-centric-design" class="title-slide slide level1 center">
-<h1>Human-Centric Design</h1>
-
+<aside class="notes">
+<p>MD originated as a branch of economics. It’s a vast field, covering […].</p>
+<p>Computer science now holds a central place in the discipline. This is partly because mechanisms are only relevant in practice if we can actually compute the outcomes. For example, if it took months to compute a good allocation of kidney pair donations, then an optimal KPD wouldn’t be useful. It’s often more realistic to look for an approximately optimal solution, which can be easier to compute.</p>
+<p>Computational aspects becomes even more important when a mechanism involves many participants and large amounts of data.</p>
+<p>But computer science can also provide other insights. For example, suppose we have a mechanism in which people can be strategic. If it’s too complicated for people to find the best way to lie, they might instead be truthful instead. Computer science provides many tools that can help us reason about how hard it is to calculate or compute strategies.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="solving-societys-pressing-problems" class="slide level2 center">
 <h2>Solving Society’s Pressing Problems</h2>
@@ -350,11 +510,46 @@ Edwin Lock
 <li>Land allocation to indigenous groups</li>
 <li>Refugee resettlement</li>
 </ul>
-<p>EAAMO and IPICYT are leading many fantastic efforts.</p>
+<div class="columns">
+<div class="column">
+<p><span class="math inline">\(\ \)</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/eaamo.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/ipicyt.png" class="quarto-figure quarto-figure-center" style="width:28.0%"></p>
+</figure>
+</div>
+</div></div>
+<!-- ::: {layout-ncol=2}
+
+::: -->
+<aside class="notes">
+<p>I am very optimistic that mechanism design can help us solve many of society’s most pressing problems.</p>
+<p>Areas where I see particular immediate potential are in […].</p>
+<p>But these problems are often highly complex, and involve many stakeholders who have different strategic aims and cultural outlooks.</p>
+<p>EAAMO, which Francisco told us about earlier today, has been instrumental in connecting research and stakeholders to build solutions for these problems.</p>
+<p>I’ve also had the honour of working closely with IPICYT here in SLP to implement a COVID testing mechanisms, which has been a fantastic experience.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="challenges-in-complex-settings" class="slide level2 center">
 <h2>Challenges in complex settings</h2>
 <p>In many settings, we hit fundamental theoretical or computational limits.</p>
+<div class="fragment">
 <p><strong>Example: The Vickrey-Clarkes-Groves Auction</strong></p>
 <ol type="1">
 <li>Ask each bidder to submit a bid for each bundle of goods.</li>
@@ -362,27 +557,46 @@ Edwin Lock
 <li>Charge each bidder the <em>harm they have caused the other agents</em></li>
 </ol>
 <p>This auction is incentive-compatible!</p>
+</div>
 <div class="fragment">
-<p><strong>The bad news</strong></p>
+<p><strong>Now the bad news…</strong></p>
 <ul>
-<li>This auction is not computationally tractable (even to approximate) for many goods and bidders.</li>
-<li>IC comes at the expense of revenue.</li>
-<li>Bidders might find the pricing rule intransparent.</li>
+<li>Not computationally feasible for many goods and bidders.</li>
+<li>Low revenue.</li>
+<li>Intransparent pricing rule?</li>
 </ul>
+<aside class="notes">
+<p>But there are fundamental challenges in mechanism design that can limit what we can achieve.</p>
+<p>I’ll give you a famous example from the auction literature: the VCG auction. Suppose we want to run an auction with multiple goods simultaneously, for example multiple auditoriums. The VCG auction asks bidders to submit bids for all bundles of goods, and then allocates the goods to maximise welfare (just like the second-price auction). But instead of asking the bidder to pay their bid or the second-highest bid, the auction charges each bidder the harm that they have caused the other bidders. This is the difference between what the other bidders got and what they could have got if the bidder hadn’t participated at all.</p>
+<p>The good news is that VCG is IC.</p>
+<p>But the bad news is that the pricing rule is complicated / intransparent.</p>
+<p>The VCG auction also often leads to low revenue.</p>
+<p>And perhaps most importantly, it’s not computationally feasible with many bidders and goods.</p>
+<p>So VCG isn’t used much in practice.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </div>
 </section>
 <section id="theory-practice" class="slide level2 center">
 <h2>Theory → Practice</h2>
 <p><strong>Many proposals to stakeholders are rejected:</strong></p>
 <ul>
-<li>mechanisms are too complicated for the stake-holders</li>
-<li>or too hard to understand for non-technical participants</li>
+<li>mechanisms are too complicated for (non-technical) stakeholders</li>
 </ul>
 <p><strong>Practical mechanism design should prioritise:</strong></p>
 <ol type="1">
-<li>simplicity &amp; explainability of the mechanism</li>
-<li>computational tractability of the problem</li>
-<li>ease of interaction (complexity and quantity of communication)</li>
+<li><strong>Stakeholder buy-in</strong>: participants understand and accept mechanism</li>
+<li><strong>Computational feasibility</strong> of the problem</li>
+<li><strong>Ongoing refinement</strong> of system based on feedback</li>
 </ol>
 </section>
 <section id="ai-enhanced-designs" class="slide level2 center">
@@ -392,12 +606,14 @@ Edwin Lock
 <li><strong>Reinforcement learning</strong> and <strong>neural networks</strong> can make mechanisms more tractable.</li>
 <li>LLMs can allow participants to <strong>communicate in natural language</strong>.</li>
 </ul>
-<p>[Cite some literature!]</p>
+<div class="fragment">
+<h4 id="pros-and-cons">Pros and Cons</h4>
 <ul>
 <li>We lose some mathematical performance guarantees.</li>
 <li>Mechanisms can be applied to much broader domains.</li>
-<li>We can often <em>fuse</em> classical mechanisms with AI elements.</li>
+<li>We can often <strong>fuse classical mechanisms with AI elements</strong>.</li>
 </ul>
+
 <aside class="notes">
 <ul>
 <li>The success stories emphasise the need for simplicity or ease of use.</li>
@@ -413,7 +629,12 @@ Edwin Lock
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
+</div>
+<aside><div>
+<p>Meta Fundamental AI Research Diplomacy Team (FAIR) et al., “Human-level play in the game of Diplomacy by combining language models with strategic reasoning”, <em>Science</em>, 2022.</p>
+<p>David Rothschild et al., “The Agentic Economy”, ArXiv, 2025.</p>
+<p>Michael Tessler et al., “AI can help humans find common ground in democratic deliberation”, Science, 2024.</p>
+</div></aside></section>
 <section id="combinatorial-auctions" class="slide level2 center" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Combinatorial Auctions</h2>
 <div class="auction-container goods large">
@@ -484,30 +705,29 @@ Edwin Lock
 <li><strong>Demand query</strong>: At these prices for each bundle, which bundle do you want?</li>
 <li><strong>Value query</strong>: How much do you value this bundle?</li>
 </ul>
-<div class="fragment">
 <p>⚠️ In the real world, asking these queries is cognitively &amp; logistically costly or impossible.</p>
-</div>
 </section>
 <section id="llm-proxy-auctions" class="slide level2 center">
 <h2>LLM-Proxy Auctions</h2>
 <div class="key-question">
 <p><strong>Insight:</strong> We can use LLMs to communicate with buyers in natural language!</p>
 </div>
+<p>from [David Huang, Francisco Marmolejo-Cossío, EL, David Parkes, “Accelerated Preference Elicitation with LLM-Based Proxies”, 2025]</p>
 <div class="fragment">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/LLM-proxy-auction.png" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
-
+<!-- ::: aside
+The auctioneer implements the Competitive Equilibrium Combinatorial Auction (Lahaie and Parkes, 2004).
+::: -->
 </div>
-<aside><div>
-<p>The auctioneer implements the Competitive Equilibrium Combinatorial Auction (Lahaie and Parkes, 2004).</p>
-</div></aside></section>
+</section>
 <section id="llm-proxy-auctions-1" class="slide level2 center">
 <h2>LLM-Proxy Auctions</h2>
 <div class="columns">
-<div class="column" style="width:75%;">
+<div class="column" style="width:70%;">
 <ul>
 <li>Each proxy maintains a belief of person’s preferences.</li>
 <li>Proxies learn from their person through
@@ -517,55 +737,88 @@ Edwin Lock
 </ul></li>
 <li>Proxies use chat history to <strong>infer values</strong>.</li>
 </ul>
-</div><div class="column" style="width:25%;">
+</div><div class="column" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/proxies.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<p><img data-src="images/titleimage.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div></div>
-<hr>
-<p><strong>Simulation pipeline for experiments</strong></p>
-<ul>
-<li>Different LLMs simulate people’s responses to natural language questions and value/demand queries.</li>
-<li>LLM’s responses are grounded in a <strong>seed description</strong> generated in natural language.</li>
-</ul>
+<!-- <hr>
+
+**Simulation pipeline for experiments**
+
+* Different LLMs simulate people's responses to natural language questions and value/demand queries.
+* LLM's responses are grounded in a **seed description** generated in natural language. -->
 </section>
-<section id="llm-proxy-auctions-2" class="slide level2 center">
-<h2>LLM-Proxy Auctions</h2>
-<p>Experiments with <span class="math inline">\(6\)</span> goods in three contexts using simulation pipeline.</p>
+<section id="llm-proxy-auctions-2" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">LLM-Proxy Auctions</h2>
+<p>Experiments with <span class="math inline">\(6\)</span> goods in three contexts.</p>
+
+<img data-src="images/auction-value.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><p><strong>Auction efficiency:</strong> LLM proxies can achieve higher welfare with less proxy–person communication.</p>
+<p><strong>Long-run performance:</strong> Our best proxy better approximates a person’s valuation than traditional mechanisms. The auction with LLM proxies converges to maximum welfare.</p>
+<!-- ::: {.fragment .fade-in}
+**Result 3 (Simulation robustness):** The LLM simulation pipelines behaves similarly with different LLM models.
+::: -->
+</section>
+<section id="work-in-progress" class="slide level2 center">
+<h2>🚧 Work in Progress</h2>
+<p>LLM-Proxy work provides blueprint for augmenting mechanism design with LLMs:</p>
+<ul>
+<li>LLM proxies <strong>mediate</strong> between “mathematical” mechanism and humans.</li>
+<li>Can collate and infer preferences (from different stakeholders).</li>
+</ul>
+<div class="fragment">
+<h4 id="vivienda-digna">Vivienda Digna</h4>
+<ul>
+<li>SLP is considering a land allocation program for indigenous groups.</li>
+<li>LLMs as a powerful tool to formulate detailed preferences and expectations.</li>
+<li>Important to <strong>build trust</strong> by allowing stakeholders to audit the decision processes.</li>
+</ul>
 <div class="columns">
-<div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/auction-value.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-</div><div class="column" style="width:60%;">
-<p><strong>Result 1 (Auction efficiency):</strong> LLM proxies can achieve higher welfare with less proxy—person communication.</p>
-<p><strong>Result 2 (Long-run performance):</strong> Our best proxy better approximates a person’s valuation than traditional mechanisms. The auction with LLM proxies converges to maximum welfare.</p>
-<p><strong>Result 3 (Simulation robustness):</strong> The LLM simulation pipelines behaves similarly with different LLM models.</p>
+<div class="column" style="width:25%;">
+<p><img data-src="images/logo.png" style="width:50.0%"></p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/harvard.png" style="width:50.0%"></p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/bc.png" style="width:55.0%"></p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/ipicyt.png" style="width:45.0%"></p>
 </div></div>
-</section>
-<section id="dignified-housing" class="slide level2 center">
-<h2>Dignified Housing</h2>
-<ul>
-<li>Brief description of project and goals.</li>
-</ul>
+<!-- ![](images/UK-spectrum.png){width=100%}
+
+![The Economist, 2021](images/US-spectrum.png){width=100%} -->
+</div>
 </section>
 <section id="takeaways" class="slide level2 center">
 <h2>Takeaways</h2>
 <div class="conclusion-list">
 <ul>
 <li>We can, and should, apply mechanism design to solve some of society’s most pressing problems.</li>
-<li>Focusing on simplicity and understandability is key for successful implementations.</li>
+<li>Focusing on simplicity and stakeholder buy-in is key to success.</li>
 <li>Integrating AI like LLMs for natural language communication can result in more human-centric mechanisms to better serve the needs of communities.</li>
 </ul>
 </div>
+<hr>
 <p>Thank you!</p>
 <p>Get in touch: <a href="mailto:edwin.lock@cs.ox.ac.uk">edwin.lock@cs.ox.ac.uk</a></p>
+<aside class="notes">
+<p>I’d like to you take away points from this talk. Firstly, mechanism design is a fantastic tool in our tool box to solve important problems that we face.</p>
+<p>Secondly, the success stories of MD demonstrate that it’s not just the theoretical guarantees that matter. The success of a mechanism also depends on its simplicity and stakeholder buy-in, which often requires a lot of fine tuning and incremental improvements.</p>
+<p>LLMs are revolutionising how we interact with technology. Integrating AI into mechanism designs can allow us to design truly human-centric mechanisms that can help make real progress.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/oxford.png" class="slide-logo"></p>

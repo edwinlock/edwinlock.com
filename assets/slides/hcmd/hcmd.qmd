@@ -572,20 +572,24 @@ LLM-Proxy work provides blueprint for augmenting mechanism design with LLMs:
 
 :::: {.columns}
 
-::: {.column width="25%"}
-![](images/logo.png){width=50%}
+::: {.column width="13%"}
+![](images/logo.png){width=90%}
+:::
+
+::: {.column width="13%"}
+![](images/harvard.png){width=90%}
+:::
+
+::: {.column width="13%"}
+![](images/bc.png){width=90%}
 :::
 
 ::: {.column width="25%"}
-![](images/harvard.png){width=50%}
+![](images/capital.jpg){width=90%}
 :::
 
-::: {.column width="25%"}
-![](images/bc.png){width=55%}
-:::
-
-::: {.column width="25%"}
-![](images/ipicyt.png){width=45%}
+::: {.column width="34%"}
+![](images/copocyt.png){width=100%}
 :::
 
 ::::

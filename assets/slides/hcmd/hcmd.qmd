@@ -21,7 +21,7 @@ format:
 
 ## Funding an Auditorium {auto-animate=true}
 
-![](images/auditorio.png){fig-align="center"}
+![](images/old_auditorio.png){fig-align="center"}
 
 ::: {.notes}
 Suppose we're opening a new university institute, and we're looking for a sponsor for our new auditorium.
@@ -32,7 +32,7 @@ Suppose we're opening a new university institute, and we're looking for a sponso
 
 $\ $
 
-![](images/auditorio.png){fig-align="center"}
+![](images/old_auditorio.png){fig-align="center"}
 
 $\ $
 

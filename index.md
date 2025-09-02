@@ -18,6 +18,7 @@ I'm currently focusing on computational questions arising in auctions and market
 Previously, I was a postdoctoral researcher at Oxford University, and a Research Fellow at Nuffield College, Oxford.
 
 #### News
-
+{#
 {% assign newslist = site.data.news %}
 {% include newslist.html %}
+#}

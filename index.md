@@ -3,7 +3,7 @@ layout: index
 image: profile.png
 ---
 ## About me
-I'm a postdoctoral researcher at the Computer Science Department at Oxford University.
+I'm a Lecturer (Assistant Professor) in Computer Science at at King's College London.
 
 <b>Research interests</b>: algorithms & complexity, algorithmic game theory, auctions and markets.
 
@@ -15,7 +15,7 @@ I'm currently focusing on computational questions arising in auctions and market
     <a href="pdfs/cv.pdf" class="btn btn-outline-primary">CV</a>
 </div>
 
-Prior to my doctoral studies in Computer Science at Oxford, I completed a BSc in Mathematics at FernUniversität Hagen and an MSc in Mathematics and Computer Science at Oxford University. I also hold a BA in Music from Oxford.
+Previously, I was a postdoctoral researcher at Oxford University, and a Research Fellow at Nuffield College, Oxford.
 
 #### News
 

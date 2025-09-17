@@ -3,7 +3,7 @@ layout: index
 image: profile.png
 ---
 ## About me
-I'm a Lecturer (Assistant Professor) in Computer Science at at King's College London.
+I'm a Lecturer (Assistant Professor) in Computer Science at King's College London.
 
 <b>Research interests</b>: algorithms & complexity, algorithmic game theory, auctions and markets.
 

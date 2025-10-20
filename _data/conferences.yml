@@ -1,3 +1,9 @@
+- title: "Accelerated Preference Elicitation with LLM-Based Proxies"
+  authors: "David Huang, Francisco Marmolejo-Cossío, Edwin Lock and David Parkes"
+  venue: "The 21st Conference on Web and Internet Economics (WINE'25)"
+  year: "2025"
+  arXiv: "https://arxiv.org/abs/2501.14625"
+
 - title: "Decentralized Convergence to Equilibrium Prices in Trading Networks"
   authors: "Edwin Lock, Benjamin Patrick Evans, Eleonora Kreacic, Sujay Bhatt, Alec Koppel, Sumitra Ganesh, and Paul Goldberg"
   venue: "The 39th Conference on Artificial Intelligence (AAAI'25)"
@@ -13,7 +19,7 @@
 
 - title: "Substitutes markets with budget constraints: solving for competitive and optimal prices"
   authors: "Simon Finster, Paul Goldberg, and Edwin Lock"
-  venue: " The 19th Conference on Web and Internet Economics (WINE'23)"
+  venue: "The 19th Conference on Web and Internet Economics (WINE'23)"
   arXiv: "https://arxiv.org/abs/2310.03692v1"
   file: "pdfs/wine23.pdf"
   year: "2023"

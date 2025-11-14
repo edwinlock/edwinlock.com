@@ -3,18 +3,18 @@
 url: "https://www.edwinlock.com"
 
 fullname: Edwin Lock
-position: Postdoctoral researcher
-department: Computer Science Department
-university: Oxford University
+position: Lecturer in Computer Science
+department: Department of Informatics
+university: King's College London
 
-building: Wolfson Building  # optional
-street: Parks Road # optional
-city: Oxford  # optional
-postcode: OX1 3QD  # optional
-country: United Kingdom  # optional
+building: "Strand"  # optional
+street: "" # optional
+city: "London" # optional
+postcode: "WC2R 2LS"  # optional
+country: "United Kingdom"  # optional
 
 email: mail@edwinlock.com
-secondary: edwin.lock@cs.ox.ac.uk  # optional
+secondary: edwin.lock@kcl.ac.uk  # optional
 
 formurl: https://formspree.io/xzbjkqje
 

@@ -1,3 +1,14 @@
+- title: "The Computational Intractability of Not Worst Responding"
+  authors: "Mete Şeref Ahunbay, Paul W. Goldberg, Edwin Lock, Panayotis Mertikopoulos, Bary S. R. Pradelski, Bassel Tarbush"
+  venue: "ArXiv preprint"
+  year: "2026"
+  link: "https://arxiv.org/abs/2602.10966"
+
+- title: "Decentralized Trading Networks: Equilibria and Fairness"
+  authors: "Simon Finster, Paul W. Goldberg, Edwin Lock, Matilde Tullii"
+  venue: "working paper"
+  year: "2026"
+  
 - title: "Implementing Walrasian Equilibrium: The Languages of Product-Mix Auctions"
   authors: "Elizabeth Baldwin, Paul Klemperer and Edwin Lock"
   venue: "SSRN working paper"

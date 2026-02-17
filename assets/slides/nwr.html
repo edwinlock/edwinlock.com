@@ -1466,7 +1466,7 @@ margin-right: 0; }
 <p><strong>Theorem 1</strong></p>
 </div>
 <div class="callout-content">
-<p>For any fixed integer <span class="math inline">\(m \geq 2\)</span>, given a circuit game in which every player has exactly <span class="math inline">\(m\)</span> actions, <strong>deciding</strong> whether a no-worst-response action profile exists is <strong>NP-complete</strong>.</p>
+<p>For any fixed integer <span class="math inline">\(m \geq 2\)</span>, given a circuit game with <span class="math inline">\(m\)</span> actions per player, <strong>deciding</strong> whether a no-worst-response action profile exists is <strong>NP-complete</strong>.</p>
 </div>
 </div>
 </div>
@@ -1562,39 +1562,22 @@ margin-right: 0; }
 </div>
 <div class="fragment">
 <p>There is a <strong>one-to-one correspondence</strong> between satisfying assignments of <span class="math inline">\(C\)</span> and NWR profiles of the constructed game: the reduction preserves counts exactly.</p>
+<p><strong>Summary:</strong> Weakening “best” to “not worst” does <strong>nothing</strong> for tractability.</p>
+<!-- 
+## Summary: NWR $\equiv$ PNE in general games
+
+<br>
+
+| Problem | PNE | NWR |
+|:--------|:----|:----|
+| Decision | NP-complete | **NP-complete** |
+| Search | NP-hard | **NP-hard** |
+| Counting | #P-complete | **#P-complete** |
+
+<br>
+
+Weakening "best" to "not worst" does **nothing** for tractability. -->
 </div>
-</section>
-<section class="slide level2 center">
-<h2>Summary: NWR <span class="math inline">\(\equiv\)</span> PNE in general games</h2>
-<p><br></p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Problem</th>
-<th style="text-align: left;">PNE</th>
-<th style="text-align: left;">NWR</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Decision</td>
-<td style="text-align: left;">NP-complete</td>
-<td style="text-align: left;"><strong>NP-complete</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Search</td>
-<td style="text-align: left;">NP-hard</td>
-<td style="text-align: left;"><strong>NP-hard</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Counting</td>
-<td style="text-align: left;">#P-complete</td>
-<td style="text-align: left;"><strong>#P-complete</strong></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<p>Weakening “best” to “not worst” does <strong>nothing</strong> for tractability.</p>
 </section></section>
 <section>
 <section class="title-slide slide level1 center">
@@ -1743,7 +1726,7 @@ Since $m$ is fixed, the gadget has **constant size** and can be precomputed. -->
 <p><strong>Theorem 3</strong></p>
 </div>
 <div class="callout-content">
-<p>Fix <span class="math inline">\(\alpha, \beta \in (0,1)\)</span> and integer <span class="math inline">\(m \geq 2\)</span>. The problem of finding an action profile in which at least a fraction <span class="math inline">\(\alpha\)</span> of players play a top <span class="math inline">\(\beta\)</span> action (in a game with <span class="math inline">\(m\)</span> actions per player):</p>
+<p>Fix <span class="math inline">\(\alpha, \beta \in (0,1)\)</span> and integer <span class="math inline">\(m \geq 2\)</span>. The problem of finding an action profile in which at least a fraction <span class="math inline">\(\alpha\)</span> of players play a top <span class="math inline">\(\beta\)</span> action in a given game with <span class="math inline">\(m\)</span> actions per player:</p>
 <ul>
 <li>is in <strong>RP</strong> if <span class="math inline">\(\lceil \alpha n \rceil &lt; \beta n\)</span> (roughly: <span class="math inline">\(\alpha &lt; \beta\)</span>)</li>
 <li>is <strong>NP-hard</strong> if <span class="math inline">\(\alpha m &gt; \lceil \beta m \rceil\)</span> (roughly: <span class="math inline">\(\alpha &gt; \beta\)</span>)</li>

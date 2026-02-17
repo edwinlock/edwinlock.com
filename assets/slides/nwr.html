@@ -1249,6 +1249,8 @@ margin-right: 0; }
 <div class="fragment">
 <p><br></p>
 <p>This is arguably the weakest meaningful <strong>individual rationality criterion</strong>.</p>
+<p><br></p>
+<p>(Related, but not equivalent, to <span class="math inline">\(\varepsilon\)</span>-approximate Nash Equilibria.)</p>
 </div>
 <div class="fragment">
 <p><br></p>
@@ -1638,35 +1640,75 @@ margin-right: 0; }
 <ul>
 <li><p><strong>Finding</strong> one is as hard as finding a pure NE.</p></li>
 <li><p>The CircuitSAT reduction from Theorem 1 cannot be used: the local term is cyclic, so the constructed game is <strong>not</strong> a potential game.</p></li>
-<li><p>We need a <strong>new reduction</strong> from PNE to NWR that preserves potentialness <em>and</em> local optima.</p></li>
+<li><p>We need a <strong>new reduction</strong> from PNE <em>with 2 actions per player</em> to NWR that preserves potentialness <em>and</em> local optima.</p></li>
 </ul>
+<!-- ## The new reduction (high level)
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="55%"}
+
+Start with a 2-action potential game $g$.
+
+Construct a new potential game $\widehat{g}$ with $\hat{m}$ actions per player:
+
+- For each player $i$ in $g$, add **group** of $q$ players $(i,\ell)$ in $\widehat{g}$.
+- Use a **circuit gadget** $\rho_i$ to aggregate each group's actions into a single action for player $i$ in $g$.
+- Map any profile $\widehat{a}$ of $\widehat{g}$ to profile $\rho(\widehat{a})$ of $g$ by applying $\rho_i$ to each group's actions.
+- Use $\rho$ to define **payoffs** for each player $(i,\ell)$ of $\widehat{g}$:
+$$
+u_{i\ell}(\widehat{a}) = u_i(\rho(\widehat{a})).
+$$
+
+:::
+
+::: {.column width="45%" .fragment}
+
+::: {.key-property}
+**Key property.**
+There exists a $\rho$ that satisfies:
+
+For each action profile $\widehat{a}$ of $\widehat{g}$ and $a_i \in A_i \setminus \{ \rho(\widehat{a})_i \}$, there is $\ell \in \{1, \ldots, q\}$ such that any action change of player $(i, \ell)$ changes $\rho(\widehat{a})_i$ to $a_i$.
+
+So, NWR in $\widehat{g}$ $\iff$ NE in $g$
+:::
+
+:::
+
+::::
+
+. . .
+
+<br>
+
+The key property (gadget existence) is proved via the **probabilistic method** (Lovász Local Lemma).
+
+Since $m$ is fixed, the gadget has **constant size** and can be precomputed. -->
 </div>
 </section>
 <section class="slide level2 center">
 <h2>The new reduction (high level)</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:55%;">
-<p>Start with a 2-action potential game <span class="math inline">\(g\)</span>.</p>
-<p>Construct a new potential game <span class="math inline">\(\widehat{g}\)</span> with <span class="math inline">\(\hat{m}\)</span> actions per player:</p>
+<p>Fix <span class="math inline">\(\widehat{m} \geq 2\)</span> and large <span class="math inline">\(q\)</span>. Start with a 2-action potential game <span class="math inline">\(g\)</span> and construct game <span class="math inline">\(\widehat{g}\)</span> with <span class="math inline">\(\widehat{m}\)</span> actions per player.</p>
 <ul>
-<li>For each player <span class="math inline">\(i\)</span> in <span class="math inline">\(g\)</span>, add <strong>group</strong> of <span class="math inline">\(q\)</span> players <span class="math inline">\((i,\ell)\)</span> in <span class="math inline">\(\widehat{g}\)</span>.</li>
-<li>Use a <strong>circuit gadget</strong> <span class="math inline">\(\rho_i\)</span> to aggregate each group’s actions into a single action for player <span class="math inline">\(i\)</span> in <span class="math inline">\(g\)</span>.</li>
-<li>Map any profile <span class="math inline">\(\widehat{a}\)</span> of <span class="math inline">\(\widehat{g}\)</span> to profile <span class="math inline">\(\rho(\widehat{a})\)</span> of <span class="math inline">\(g\)</span> by applying <span class="math inline">\(\rho_i\)</span> to each group’s actions.</li>
-<li>Use <span class="math inline">\(\rho\)</span> to define <strong>payoffs</strong> for each player <span class="math inline">\((i,\ell)\)</span> of <span class="math inline">\(\widehat{g}\)</span>: <span class="math display">\[
-u_{i\ell}(\widehat{a}) = u_i(\rho(\widehat{a})).
-\]</span></li>
+<li>For each player <span class="math inline">\(i\)</span> in <span class="math inline">\(g\)</span>, add <strong>group</strong> <span class="math inline">\((i,1), \ldots, (i, q)\)</span> of players in game <span class="math inline">\(\widehat{g}\)</span>.</li>
+<li>Each player in <span class="math inline">\(\widehat{g}\)</span> has actions <span class="math inline">\(A_{i\ell} = \{0, \ldots, \widehat{m}-1\}\)</span>.</li>
 </ul>
-</div><div class="column fragment" style="width:45%;">
-<div class="key-property">
-<p><strong>Key property.</strong> There exists a <span class="math inline">\(\rho\)</span> that satisfies:</p>
-<p>For each action profile <span class="math inline">\(\widehat{a}\)</span> of <span class="math inline">\(\widehat{g}\)</span> and <span class="math inline">\(a_i \in A_i \setminus \{ \rho(\widehat{a})_i \}\)</span>, there is <span class="math inline">\(\ell \in \{1, \ldots, q\}\)</span> such that any action change of player <span class="math inline">\((i, \ell)\)</span> changes <span class="math inline">\(\rho(\widehat{a})_i\)</span> to <span class="math inline">\(a_i\)</span>.</p>
-<p>So, NWR in <span class="math inline">\(\widehat{g}\)</span> <span class="math inline">\(\iff\)</span> NE in <span class="math inline">\(g\)</span></p>
-</div>
-</div></div>
+<p>To define payoffs in <span class="math inline">\(\widehat{g}\)</span>, we construct a mapping <span class="math inline">\(\rho\)</span> from profiles <span class="math inline">\(\widehat{a}\)</span> in <span class="math inline">\(\widehat{g}\)</span> to profiles <span class="math inline">\(\rho(\widehat{a})\)</span> in <span class="math inline">\(g\)</span>:</p>
+<ul>
+<li><span class="math inline">\(\rho\)</span> aggregates each group <span class="math inline">\(i\)</span>’s actions in <span class="math inline">\(\widehat{a}\)</span> into a single action for player <span class="math inline">\(i\)</span> in <span class="math inline">\(g\)</span>.</li>
+<li>The <strong>payoffs</strong> of player <span class="math inline">\((i,\ell)\)</span> are <span class="math inline">\(u_{i\ell}(\widehat{a}) = u_i(\rho(\widehat{a}))\)</span>.</li>
+</ul>
 <div class="fragment">
-<p><br></p>
-<p>The key property (gadget existence) is proved via the <strong>probabilistic method</strong> (Lovász Local Lemma).</p>
+<div class="key-property">
+<p><strong>Key property.</strong> For any <span class="math inline">\(\widehat{m} \geq 2\)</span>, there exists a <span class="math inline">\(\rho\)</span> that satisfies:</p>
+<p>For each action profile <span class="math inline">\(\widehat{a}\)</span> of <span class="math inline">\(\widehat{g}\)</span> and <span class="math inline">\(a_i \in A_i \setminus \{ \rho(\widehat{a})_i \}\)</span>, there is <span class="math inline">\(\ell \in \{1, \ldots, q\}\)</span> such that any action change of player <span class="math inline">\((i, \ell)\)</span> changes <span class="math inline">\(\rho(\widehat{a})_i\)</span> to <span class="math inline">\(a_i\)</span>.</p>
+</div>
+</div>
+<div class="fragment">
+<p>So, NWR in <span class="math inline">\(\widehat{g}\)</span> <span class="math inline">\(\iff\)</span> NE in <span class="math inline">\(g\)</span>.</p>
+<p>Key property (<span class="math inline">\(\rho\)</span> existence) is proved via the <strong>probabilistic method</strong> (Lovász Local Lemma).</p>
 <p>Since <span class="math inline">\(m\)</span> is fixed, the gadget has <strong>constant size</strong> and can be precomputed.</p>
 </div>
 </section></section>

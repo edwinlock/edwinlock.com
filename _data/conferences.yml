@@ -3,6 +3,7 @@
   venue: "The 19th International Symposium on Algorithmic Game Theory (SAGT'26)"
   year: "2026"
   arXiv: "https://arxiv.org/abs/2606.09631"
+  award: "Best paper award"
 
 - title: "The Computational Intractability of Not Worst Responding"
   authors: "Mete Şeref Ahunbay, Paul W. Goldberg, Edwin Lock, Panayotis Mertikopoulos, Bary S. R. Pradelski, and Bassel Tarbush"

@@ -2,8 +2,9 @@
   authors: "Simon Finster, Paul Goldberg, and Edwin Lock"
   venue: "Theoretical Economics"
   arXiv: "https://arxiv.org/abs/2310.03692"
+  link: "https://www.econometricsociety.org/publications/theoretical-economics/lookup/forthcoming/41693/1"
   file: "pdfs/TE-optimal-pricing.pdf"
-  note: "Accepted 2025"
+  year: "2025"
 
 - title: "Solving Strong-Substitutes Product-Mix Auctions"
   authors: "Elizabeth Baldwin, Paul W Goldberg, Paul Klemperer, and Edwin Lock"

@@ -1,4 +1,10 @@
-- title: "Solving the \"Arctic\" Product-Mix Auction"
+- title: "Dynamic Welfare-Maximizing Pooled Testing"
+  authors: "Edwin Lock, Nicholas Lopez, Francisco Marmolejo-Cossío, Jose Roberto Tello Ayala, and David C. Parkes"
+  arXiv: "https://arxiv.org/abs/2601.22419"
+  venue: "ArXiv preprint"
+  year: "2026"
+
+- title: "Solving the Arctic Product-Mix Auction"
   authors: "Elizabeth Baldwin, Paul Klemperer, and Edwin Lock"
   file: "pdfs/solving-arctic-pma.pdf"
   venue: "Working paper"
